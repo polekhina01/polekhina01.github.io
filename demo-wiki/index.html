@@ -1,1 +1,50 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Demo Wiki</title>
+
+  <!-- Theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+  <style>
+    /* чуть более "корпоративно" */
+    .markdown-section { max-width: 1100px; }
+  </style>
+</head>
+<body>
+  <div id="app">Загрузка…</div>
+
+  <script>
+    window.$docsify = {
+      name: 'Demo Wiki',
+      repo: '',
+
+      // Главная страница
+      homepage: 'README.md',
+
+      // Навигация слева
+      loadSidebar: true,
+      subMaxLevel: 3,
+
+      // Оглавление на странице (справа/внутри)
+      toc: { tocMaxLevel: 3, target: 'h2, h3, h4' },
+
+      // Поиск
+      search: {
+        depth: 3,
+        noData: 'Ничего не найдено',
+        placeholder: 'Поиск…'
+      }
+    }
+  </script>
+
+  <!-- Docsify -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- Plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+</body>
+</html>
 
