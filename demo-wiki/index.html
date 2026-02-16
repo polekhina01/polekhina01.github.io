@@ -30,19 +30,14 @@
     window.$docsify = {
       name: 'Demo Wiki',
       repo: '',
-
-      // Главная страница
       homepage: 'README.md',
-
-      // Сайдбар
       loadSidebar: true,
       subMaxLevel: 3,
       auto2top: true,
-
-      // ВАЖНО — чтобы docs/pz2.md работал корректно
       relativePath: true,
-
-      // Поиск
+  
+      externalLinkTarget: '_blank',
+  
       search: {
         depth: 3,
         noData: 'Ничего не найдено',
