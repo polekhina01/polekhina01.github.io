@@ -9,4 +9,7 @@
   - [Пояснительная записка 29900/ПД-КВ-ОПЗ(ранняя версия)](docs/29900-ПД-КВ-ОПЗ_cleaned.md)
   - [Пояснительная записка 29900/ПД-КВ-ОПЗ(последняя версия)](docs/29900-ПД-КВ-ОПЗ(1)_cleaned.md)
   - [Сравнение новой версии 29900/ПД-КВ-ОПЗ относительно старой](https://polekhina01.github.io/demo-wiki/docs/29900_old_vs_new.docx)
+  - <a href="https://polekhina01.github.io/demo-wiki/docs/29900_old_vs_new.docx">
+  Скачать сравнение (DOCX)
+</a>
 
