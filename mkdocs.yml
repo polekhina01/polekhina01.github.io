@@ -1,0 +1,32 @@
+site_name: Документация заказчика
+site_url: https://polekhina01.github.io/
+site_description: Автоматически генерируемая документация
+
+repo_url: https://github.com/polekhina01/polekhina01.github.io
+repo_name: polekhina01/polekhina01.github.io
+
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+nav:
+  - Главная: index.md
+  - Документы:
+      - 1: 1/1.md
