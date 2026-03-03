@@ -1,8 +1,8 @@
 site_name: Документация
-site_url: https://polekhina01.github.io/
+site_url: https://polekhina01.github.io/  
 site_description: Автоматически генерируемая документация
 
-repo_url: https://github.com/polekhina01/polekhina01.github.io
+repo_url: https://github.com/polekhina01/polekhina01.github.io  
 repo_name: polekhina01/polekhina01.github.io
 
 theme:
@@ -30,4 +30,6 @@ nav:
   - Главная: index.md
   - Документы:
       - 1: 1/1.md
-      - 29900-ПД-КВ-ОПЗ(1)_cleaned: 29900-ПД-КВ-ОПЗ(1)_cleaned/29900-ПД-КВ-ОПЗ(1)_cleaned.md
+      - 29900-ПД-КВ-ОПЗ(1)_cleaned:
+          - 29900-ПД-КВ-ОПЗ(1)_cleaned: 29900-ПД-КВ-ОПЗ(1)_cleaned/29900-ПД-КВ-ОПЗ(1)_cleaned.md
+          - pz2: 29900-ПД-КВ-ОПЗ(1)_cleaned/pz2.md
